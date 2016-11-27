@@ -4,7 +4,7 @@
   font-family:"futura", sans-serif;
 }
 body{
-  background-image: url(../IMG/marble3.jpg);
+  background-image: url("../IMG/marble3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
@@ -55,7 +55,6 @@ margin-right:auto;}
 .form-caption-text:hover {
   text-decoration: underline;
   text-decoration-color:#05FFB0;
-  animation-play-state: running;
 }
 
 .form-caption-text {
