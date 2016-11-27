@@ -1,7 +1,7 @@
 .title{
   color:#5e0231;
-  font-size:70px;
-  font-family:"futura", sans-serif;
+  font-size:90px;
+  font-family: 'Amatic SC', cursive;
 }
 body{
   background-image: url("../IMG/marble3.jpg");
@@ -19,6 +19,7 @@ body{
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+  font-family: Georgia,Times New Roman,serif;
 }
 .line-seperator {
   height: 70px;
@@ -28,12 +29,23 @@ body{
   font-family: sans-serif;
   color:white;
   padding-top: 20px;
-
+  margin-bottom: 60px;
+  margin-top: 60px;
 }
+
+.email-text {
+  font-family: 'Amatic SC', cursive;
+  color:white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: -30;
+}
+
 .container {
   width: 800px;
 margin-left: auto;
-margin-right:auto;}
+margin-right:auto;
+}
 
 .pictureme {
   border: 3px solid black;
@@ -47,9 +59,11 @@ margin-right:auto;}
   background: white;
   padding-top: 0.5px;
   padding-bottom: 0.5 px;
+  font-family: Georgia,Times New Roman,serif;
 }
 .form-caption {
   background: white;
+  font-family: Georgia,Times New Roman,serif;
 }
 
 .form-caption-text:hover {
@@ -63,21 +77,85 @@ margin-right:auto;}
   padding-bottom: 15px;
   padding-left: 45px;
   padding-right: 45px;
+  font-family: Georgia,Times New Roman,serif;
 }
 
 .me-caption-text {
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: Georgia,Times New Roman,serif;
+}
+
+.me-caption-text:hover {
+  text-decoration: underline;
+  text-decoration-color:#05FFB0;
+}
+
+.row {
+margin-top: 128px;
+}
+
+.caption-music {
+  background:white;
+  margin-bottom:0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-top:-10px;
+  font-family: Brown Regular,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  z-index: 1;
+  text-align: center;
+}
+
+.caption-music:hover {
+  text-decoration: underline;
+  text-decoration-color:#05FFB0;
+}
+
+.caption-eat {
+  background:white;
   margin-bottom: 0;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 45px;
   padding-right: 45px;
+  font-family: Brown Regular,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  z-index: 1;
+  text-align: center;
 }
 
-.me-caption-text:hover {
+.caption-eat:hover {
   text-decoration: underline;
-  text-decoration-color:#05FFB0
+  text-decoration-color:#05FFB0;
 }
 
-.row {
-margin-top: 128px;
+.caption-travel {
+  background:white;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-family: Brown Regular,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  z-index: 1;
+  text-align: center;
+}
+
+.caption-travel:hover {
+  text-decoration: underline;
+  text-decoration-color:#05FFB0;
+}
+
+.opaque:hover {
+  opacity: 0.7
 }
