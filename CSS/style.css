@@ -1,0 +1,84 @@
+.title{
+  color:#5e0231;
+  font-size:70px;
+  font-family:"futura", sans-serif;
+}
+body{
+  background-image: url(../IMG/marble3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+.submit-button {
+  color:black;
+  font-size:15px;
+}
+.questionnaire {
+  border: 3px solid black;
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.line-seperator {
+  height: 70px;
+  width: 100%;
+  background-color: #5e0231;
+  font-size: 50px;
+  font-family: sans-serif;
+  color:white;
+  padding-top: 20px;
+
+}
+.container {
+  width: 800px;
+margin-left: auto;
+margin-right:auto;}
+
+.pictureme {
+  border: 3px solid black;
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me-caption {
+  background: white;
+  padding-top: 0.5px;
+  padding-bottom: 0.5 px;
+}
+.form-caption {
+  background: white;
+}
+
+.form-caption-text:hover {
+  text-decoration: underline;
+  text-decoration-color:#05FFB0;
+  animation-play-state: running;
+}
+
+.form-caption-text {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.me-caption-text {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.me-caption-text:hover {
+  text-decoration: underline;
+  text-decoration-color:#05FFB0
+}
+
+.row {
+margin-top: 128px;
+}
